@@ -1,0 +1,7 @@
+C:\Users\Trajan\Desktop\C# Advanced\ConsoleEShopApp\ConsoleStoreApp\bin\Debug\ConsoleStoreApp.exe.config
+C:\Users\Trajan\Desktop\C# Advanced\ConsoleEShopApp\ConsoleStoreApp\bin\Debug\ConsoleStoreApp.exe
+C:\Users\Trajan\Desktop\C# Advanced\ConsoleEShopApp\ConsoleStoreApp\bin\Debug\ConsoleStoreApp.pdb
+C:\Users\Trajan\Desktop\C# Advanced\ConsoleEShopApp\ConsoleStoreApp\obj\Debug\ConsoleStoreApp.csprojResolveAssemblyReference.cache
+C:\Users\Trajan\Desktop\C# Advanced\ConsoleEShopApp\ConsoleStoreApp\obj\Debug\ConsoleStoreApp.csproj.CoreCompileInputs.cache
+C:\Users\Trajan\Desktop\C# Advanced\ConsoleEShopApp\ConsoleStoreApp\obj\Debug\ConsoleStoreApp.exe
+C:\Users\Trajan\Desktop\C# Advanced\ConsoleEShopApp\ConsoleStoreApp\obj\Debug\ConsoleStoreApp.pdb
