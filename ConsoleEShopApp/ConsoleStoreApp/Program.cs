@@ -373,7 +373,7 @@ namespace ConsoleStoreApp
         static void FinalReceipt(ShoppingCart cart)
         {
             int totalPrice = 0;
-            totalPrice = cart.OrderedProducts.Sum(price => totalPrice += price.TotalPrice);
+            //totalPrice = cart.OrderedProducts.Sum(price => totalPrice += price.TotalPrice);
             foreach (var product in cart.OrderedProducts)
             {
                 totalPrice += product.TotalPrice;

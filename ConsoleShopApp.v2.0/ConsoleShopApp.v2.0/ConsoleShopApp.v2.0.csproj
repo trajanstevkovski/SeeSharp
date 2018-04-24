@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C8A6B519-A74A-4E13-A571-662FBAB78098}</ProjectGuid>
+    <ProjectGuid>{172757A6-EF87-4B03-B2EC-6605D0F6AD59}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleStoreApp</RootNamespace>
-    <AssemblyName>ConsoleStoreApp</AssemblyName>
+    <RootNamespace>ConsoleShopApp.v2._0</RootNamespace>
+    <AssemblyName>ConsoleShopApp.v2.0</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,15 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleStoreApp.Entity\OrderedProduct.cs" />
-    <Compile Include="ConsoleStoreApp.Entity\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ConsoleStoreApp.Entity\ShoppingCart.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleShopApp.v2.0.Library\ConsoleShopApp.v2.0.Library.csproj">
+      <Project>{E83FCDCF-4C37-4488-831E-D91494603EDE}</Project>
+      <Name>ConsoleShopApp.v2.0.Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

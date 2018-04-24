@@ -1,0 +1,6 @@
+C:\Users\Trajan\source\repos\ConsoleShopApp.v2.0\ConsoleShopApp.v2.0.Library\bin\Debug\ConsoleShopApp.v2.0.Library.dll
+C:\Users\Trajan\source\repos\ConsoleShopApp.v2.0\ConsoleShopApp.v2.0.Library\bin\Debug\ConsoleShopApp.v2.0.Library.pdb
+C:\Users\Trajan\source\repos\ConsoleShopApp.v2.0\ConsoleShopApp.v2.0.Library\obj\Debug\ConsoleShopApp.v2.0.Library.csprojResolveAssemblyReference.cache
+C:\Users\Trajan\source\repos\ConsoleShopApp.v2.0\ConsoleShopApp.v2.0.Library\obj\Debug\ConsoleShopApp.v2.0.Library.csproj.CoreCompileInputs.cache
+C:\Users\Trajan\source\repos\ConsoleShopApp.v2.0\ConsoleShopApp.v2.0.Library\obj\Debug\ConsoleShopApp.v2.0.Library.dll
+C:\Users\Trajan\source\repos\ConsoleShopApp.v2.0\ConsoleShopApp.v2.0.Library\obj\Debug\ConsoleShopApp.v2.0.Library.pdb

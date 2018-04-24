@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C8A6B519-A74A-4E13-A571-662FBAB78098}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleStoreApp</RootNamespace>
-    <AssemblyName>ConsoleStoreApp</AssemblyName>
+    <ProjectGuid>{E83FCDCF-4C37-4488-831E-D91494603EDE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConsoleShopApp.v2._0.Library</RootNamespace>
+    <AssemblyName>ConsoleShopApp.v2.0.Library</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -42,15 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleStoreApp.Entity\OrderedProduct.cs" />
-    <Compile Include="ConsoleStoreApp.Entity\Product.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Entities\Enumerations.cs" />
+    <Compile Include="Entities\OrderedProduct.cs" />
+    <Compile Include="Entities\Payment.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\ShippedOrder.cs" />
+    <Compile Include="Entities\ShippingDetails.cs" />
+    <Compile Include="Entities\ShoppingCart.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ConsoleStoreApp.Entity\ShoppingCart.cs" />
+    <Compile Include="Repository\ProductRepository.cs" />
+    <Compile Include="Services\IService.cs" />
+    <Compile Include="Services\Service.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
